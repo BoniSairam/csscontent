@@ -1,0 +1,29 @@
+in selector 5 types
+
+*simple
+  element(h1,p,span,img),id(#),class(.)
+
+*combinator
+  :descandant( ),child(>),adjacent(+),general(~)
+
+*pseudo class
+  :link :visites, :hover, :active
+
+*pseudo element
+  ::first-line, ::first-letter,
+
+*attribute
+ based on element attribute we apply styling
+ ---------------------------------------------------------------------
+ color values & three ways
+ 
+ 3 ways:-
+        color name -----red,green,pink,yellow
+        color in rgb()
+             (red ,green,blue) 0-255
+             reba(red,green,blue,opacity) 0-1
+        color in hexa code
+        #rrggbb
+
+        0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+                            a   b  c  d  e  f
